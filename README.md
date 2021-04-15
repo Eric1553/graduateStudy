@@ -1,5 +1,4 @@
 # graduateStudy
-# Hi,my github!
 
 This repository is for my guaduate study!
 The content contains Maths, English, programming and deeplearning.
