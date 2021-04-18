@@ -1,0 +1,10 @@
+1.2 什么是神经网络
+  神经网络是由一个个的神经元组成的。神经网络通过输入的特征x，来得到预测值y。
+  每个神经元都可以是ReLU的一部分。（ReLU是一个x输入为负取0，输入正取线性的函数，即修正线性单元 Rectified Linear Unit）
+    激活函数可以是其他稍微非线性的函数。
+    激活函数：经典的logistic sigmoid函数，其输入从负无穷到正无穷，其输出为（0，1）。表达式为 1 / (1 + exp(-x))
+    
+    
+    
+    https://blog.csdn.net/weixin_37226516/article/details/60478981
+    https://en.wikipedia.org/wiki/Logistic_function
