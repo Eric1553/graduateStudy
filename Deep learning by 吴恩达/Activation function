@@ -7,6 +7,7 @@
   所谓激活函数（Activation Function），就是在人工神经网络的神经元上运行的函数，负责将神经元的输入映射到输出端。
     https://blog.csdn.net/weixin_37226516/article/details/60478981（介绍四种常见的激活函数）
     https://en.wikipedia.org/wiki/Logistic_function（详细介绍什么是Logistic fuction）
+    https://blog.csdn.net/Leo_Xu06/article/details/53708647（介绍几种常见的激活函数及其性质）
     
 激活函数的分类：饱和激活函数与不饱和激活函数（Saturated and Non-Saturated）
    https://blog.csdn.net/qq_23304241/article/details/80300149
