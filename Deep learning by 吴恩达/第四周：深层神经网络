@@ -92,21 +92,46 @@
   前向传播＋后向传播构建神经网络块：
     cache：z[l] 
     输入特征a[0]（X矩阵），通过z = wx +b 和 a = g（z）来进行前向传播
-    计算出预测值a[L]后，进行反向传播，计算da[L]然后计算dz[L]和dw[L]和db[L]，
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    计算出预测值a[L]后，进行反向传播，计算da[L]然后计算dz[L]和dw[L]和db[L]，通过梯度下降进行迭代。（缓存z值来快速进行反向传播的计算）
+
+4.7 参数 VS 超参数（Parameters vs Hyperparameters）
+  超参数：learning rate 𝑎（学习率）、iterations(梯度下降法循环的数量)、𝐿（隐藏层数目）、𝑛[𝑙]（隐藏层单元数目）、choice of activation function（激活函数的选择）都需要
+你来设置，这些数字实际上控制了最后的参数𝑊和𝑏的值，所以它们被称作超参数。
+  其他的超参数：momentum、mini batch size、regularization parameters等
+  
+  如何寻找最佳的超参数？
+  通过Idea—Code—Experiment—Idea循环来进行超参数的调试和更新。 
+  
+  Tips：超参数不是一成不变的，随着cpu和gpu的不断更新，经验法则几个月内就会更改，因此每次可以多尝试几个超参数。
+  
+  4.8 深度学习和大脑的关联性（What does this have to do with the brain?）
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
